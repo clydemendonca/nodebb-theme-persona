@@ -8,7 +8,7 @@
 				<ul class="members">
 					<!-- BEGIN members -->
 					<li>
-						<a href="{config.relative_path}/user/{groups.members.userslug}">
+						<a href="#">
 							<!-- IF groups.members.picture -->
 							<img class="avatar avatar-sm avatar-rounded" src="{groups.members.picture}" title="{groups.members.username}" />
 							<!-- ELSE -->

@@ -21,7 +21,7 @@
 			<span class="pull-left">[[topic:deleted_message]]</span>
 			<span class="pull-right">
 				<!-- IF deleter -->
-				<a href="{config.relative_path}/user/{deleter.userslug}">
+				<a href="#">
 					<strong>{deleter.username}</strong>
 				</a>
 				<small class="timeago" title="{deletedTimestampISO}"></small>

@@ -16,7 +16,7 @@
 		<!-- IF type_bool.post -->
 		<div class="media">
 			<div class="media-left">
-				<a href="{config.relative_path}/user/{target.user.userslug}">
+				<a href="#">
 					<!-- IF target.user.picture -->
 					<img class="media-object avatar avatar-lg" src="{target.user.picture}" alt="{target.user.username}" />
 					<!-- ELSE -->
@@ -25,7 +25,7 @@
 				</a>
 			</div>
 			<div class="media-body">
-				<h4 class="media-heading"><a href="{config.relative_path}/user/{target.user.userslug}">{target.user.username}</a></h4>
+				<h4 class="media-heading"><a href="#">{target.user.username}</a></h4>
 				{target.content}
 			</div>
 		</div>
@@ -34,7 +34,7 @@
 		<!-- IF type_bool.user -->
 		<div class="media">
 			<div class="media-left">
-				<a href="{config.relative_path}/user/{target.userslug}">
+				<a href="#">
 					<!-- IF target.picture -->
 					<img class="media-object avatar avatar-lg" src="{target.picture}" alt="{target.username}" />
 					<!-- ELSE -->
@@ -43,7 +43,7 @@
 				</a>
 			</div>
 			<div class="media-body">
-				<h4 class="media-heading"><a href="{config.relative_path}/user/{target.userslug}">{target.username}</a></h4>
+				<h4 class="media-heading"><a href="#">{target.username}</a></h4>
 				<p class="lead">
 					<a href="{config.relative_path}/uid/{target.uid}">[[flags:user-view]]</a> |
 					<a href="{config.relative_path}/uid/{target.uid}/edit">[[flags:user-edit]]</a>
@@ -70,7 +70,7 @@
 								<!-- ELSE -->
 								<div class="media-object avatar avatar-sm" style="background-color: {reporter.icon:bgColor}">{reporter.icon:text}</div>
 								<!-- ENDIF reporter.picture -->
-								<a href="{config.relative_path}/user/{reporter.userslug}">{reporter.username}</a>
+								<a href="#">{reporter.username}</a>
 							</div>
 						</div>
 						<div class="col-sm-6">
@@ -122,7 +122,7 @@
 					<!-- BEGIN notes -->
 					<div class="media">
 						<div class="media-left">
-							<a href="{config.relative_path}/user/{../user.userslug}">
+							<a href="#">
 								<!-- IF ../user.picture -->
 								<img class="media-object avatar avatar-md" src="{../user.picture}" alt="{../user.username}" />
 								<!-- ELSE -->
@@ -132,7 +132,7 @@
 						</div>
 						<div class="media-body">
 							<h4 class="media-heading">
-								<a href="{config.relative_path}/user/{../user.userslug}">{../user.username}</a>
+								<a href="#">{../user.username}</a>
 								<small><span class="timeago" title="{../datetimeISO}"></span></small>
 							</h4>
 							{../content}
@@ -171,7 +171,7 @@
 					<!-- BEGIN history -->
 					<div class="media">
 						<div class="media-left">
-							<a href="{config.relative_path}/user/{../user.userslug}">
+							<a href="#">
 								<!-- IF ../user.picture -->
 								<img class="media-object avatar avatar-md" src="{../user.picture}" alt="{../user.username}" />
 								<!-- ELSE -->
@@ -181,7 +181,7 @@
 						</div>
 						<div class="media-body">
 							<h4 class="media-heading">
-								<a href="{config.relative_path}/user/{../user.userslug}">{../user.username}</a>
+								<a href="#">{../user.username}</a>
 								<small><span class="timeago" title="{../datetimeISO}"></span></small>
 							</h4>
 							<ul>

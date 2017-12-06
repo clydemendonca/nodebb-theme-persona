@@ -22,7 +22,7 @@
 				<!-- ENDIF showSelect -->
 
 				<!-- IF !showSelect -->
-				<a href="<!-- IF topics.user.userslug -->{config.relative_path}/user/{topics.user.userslug}<!-- ELSE -->#<!-- ENDIF topics.user.userslug -->" class="pull-left">
+				<a href="#" class="pull-left">
 					<!-- IF topics.thumb -->
 					<img src="{topics.thumb}" class="user-img" />
 					<!-- ELSE -->
@@ -64,7 +64,7 @@
 				</span>
 				<!-- ENDIF topics.tags.length -->
 
-				<small class="hidden-xs"><span class="timeago" title="{topics.timestampISO}"></span> &bull; <a href="<!-- IF topics.user.userslug -->{config.relative_path}/user/{topics.user.userslug}<!-- ELSE -->#<!-- ENDIF topics.user.userslug -->">{topics.user.username}</a></small>
+				<small class="hidden-xs"><span class="timeago" title="{topics.timestampISO}"></span> &bull; <a href="#">{topics.user.username}</a></small>
 				<small class="visible-xs-inline">
 					<!-- IF topics.teaser.timestamp -->
 					<span class="timeago" title="{topics.teaser.timestampISO}"></span>
@@ -84,10 +84,7 @@
 			<small>[[global:posts]]</small>
 		</div>
 
-		<div class="col-md-1 hidden-sm hidden-xs stats">
-			<span class="human-readable-number" title="{topics.viewcount}">{topics.viewcount}</span><br />
-			<small>[[global:views]]</small>
-		</div>
+		
 
 		<div class="col-md-3 col-sm-3 teaser hidden-xs" component="topic/teaser">
 			<div class="card" style="border-color: {topics.category.bgColor}">
@@ -98,7 +95,7 @@
 				<!-- ELSE -->
 				<!-- IF topics.teaser.pid -->
 				<p>
-					<a href="{config.relative_path}/user/{topics.teaser.user.userslug}">
+					<a href="#">
 						<!-- IF topics.teaser.user.picture -->
 						<img title="{topics.teaser.user.username}" class="user-img" src="{topics.teaser.user.picture}" />
 						<!-- ELSE -->

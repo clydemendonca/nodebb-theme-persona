@@ -1,6 +1,6 @@
 <h3>[[global:upvoters]] <small>({upvoteCount})</small></h3>
 <!-- BEGIN upvoters -->
-<a href="{config.relative_path}/user/{upvoters.userslug}">
+<a href="#">
 <!-- IF upvoters.picture -->
 <img class="avatar avatar-sm" src="{upvoters.picture}" title="{upvoters.username}"/>
 <!-- ELSE -->
@@ -11,7 +11,7 @@
 
 <h3>[[global:downvoters]] <small>({downvoteCount})</small></h3>
 <!-- BEGIN downvoters -->
-<a href="{config.relative_path}/user/{downvoters.userslug}">
+<a href="#">
 <!-- IF downvoters.picture -->
 <img class="avatar avatar-sm" src="{downvoters.picture}" title="{downvoters.username}"/>
 <!-- ELSE -->

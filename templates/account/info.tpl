@@ -154,7 +154,7 @@
 
 						<div class="clearfix">
 							<div class="icon pull-left">
-								<a href="<!-- IF moderationNotes.user.userslug -->{config.relative_path}/user/{moderationNotes.user.userslug}<!-- ELSE -->#<!-- ENDIF moderationNotes.user.userslug -->">
+								<a href="#">
 									<!-- IF moderationNotes.user.picture -->
 									<img class="avatar avatar-sm" component="user/picture" data-uid="{moderationNotes.user.uid}" src="{moderationNotes.user.picture}" align="left" itemprop="image" />
 									<!-- ELSE -->
@@ -165,7 +165,7 @@
 
 							<div class="pull-left">
 								<strong>
-									<a href="<!-- IF moderationNotes.user.userslug -->{config.relative_path}/user/{moderationNotes.user.userslug}<!-- ELSE -->#<!-- ENDIF moderationNotes.user.userslug -->" itemprop="author" data-username="{moderationNotes.user.username}" data-uid="{moderationNotes.user.uid}">{moderationNotes.user.username}</a>
+									<a href="#">{moderationNotes.user.username}</a>
 								</strong>
 
 								<div class="visible-xs-inline-block visible-sm-inline-block visible-md-inline-block visible-lg-inline-block">

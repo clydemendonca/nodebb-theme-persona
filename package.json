@@ -1,14 +1,14 @@
 {
-  "name": "nodebb-theme-persona",
-  "version": "7.2.4",
+  "name": "nodebb-theme-tonebase",
+  "version": "1.0.3",
   "nbbpm": {
     "compatibility": "^1.7.0"
   },
-  "description": "Persona theme for NodeBB",
+  "description": "Tonebase theme for NodeBB",
   "main": "theme.less",
   "repository": {
     "type": "git",
-    "url": "https://github.com/psychobunny/nodebb-theme-persona"
+    "url": "https://github.com/clydemendonca/nodebb-theme-tonebase"
   },
   "keywords": [
     "nodebb",
@@ -19,24 +19,14 @@
   ],
   "contributors": [
     {
-      "name": "Andrew Rodrigues",
-      "email": "andrew@designcreateplay.com",
-      "url": "https://github.com/psychobunny"
-    },
-    {
-      "name": "Julian Lam",
-      "email": "julian@designcreateplay.com",
-      "url": "https://github.com/julianlam"
-    },
-    {
-      "name": "Barış Soner Uşaklı",
-      "email": "baris@designcreateplay.com",
-      "url": "https://github.com/barisusakli"
+      "name": "Clyde Mendonca",
+      "email": "clyde.mendonca01@gmail.com",
+      "url": "https://github.com/clydemendonca"
     }
   ],
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/psychobunny/nodebb-theme-persona/issues"
+    "url": "https://github.com/clydemendonca/nodebb-theme-tonebase/issues"
   },
   "dependencies": {
     "striptags": "^3.1.0",

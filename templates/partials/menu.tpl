@@ -77,7 +77,7 @@
 						<input type="checkbox" class="hidden" id="user-control-list-check" aria-hidden="true">
 						<ul id="user-control-list" component="header/usercontrol" class="dropdown-menu" aria-labelledby="user_dropdown">
 							<li>
-								<a component="header/profilelink" href="{relative_path}/user/{user.userslug}">
+								<a component="header/profilelink" href="#">
 									<i component="user/status" class="fa fa-fw fa-circle status {user.status}"></i> <span component="header/username">{user.username}</span>
 								</a>
 							</li>
@@ -104,7 +104,7 @@
 							</li>
 							<li role="presentation" class="divider"></li>
 							<li>
-								<a component="header/profilelink/edit" href="{relative_path}/user/{user.userslug}/edit">
+								<a component="header/profilelink/edit" href="https://tonebase.co/user/account">
 									<i class="fa fa-fw fa-edit"></i> <span>[[user:edit-profile]]</span>
 								</a>
 							</li>
@@ -152,14 +152,14 @@
 				<ul id="logged-out-menu" class="nav navbar-nav navbar-right">
 					<!-- IF allowRegistration -->
 					<li>
-						<a href="{relative_path}/register">
+						<a href="https://tonebase.co/auth/signup">
 							<i class="fa fa-pencil visible-xs-inline"></i>
-							<span>[[global:register]]</span>
+							<span>Sign Up</span>
 						</a>
 					</li>
 					<!-- ENDIF allowRegistration -->
 					<li>
-						<a href="{relative_path}/login">
+						<a href="https://tonebase.co/auth/login">
 							<i class="fa fa-sign-in visible-xs-inline"></i>
 							<span>[[global:login]]</span>
 						</a>

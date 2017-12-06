@@ -1,4 +1,4 @@
-<a href="{config.relative_path}/user/{rooms.users.userslug}">
+<a href="#">
 	<!-- IF rooms.users.picture -->
 	<img class="user-img avatar avatar-sm avatar-rounded" src="{rooms.users.picture}" title="{rooms.users.username}">
 	<!-- ELSE -->

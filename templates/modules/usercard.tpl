@@ -1,5 +1,5 @@
 <div class="persona-usercard">
-	<a href="{config.relative_path}/user/{userslug}">
+	<a href="#">
 		<!-- IF picture -->
 		<div class="usercard-picture" style="background-image:url({picture})"></div>
 		<!-- ELSE -->
@@ -7,7 +7,7 @@
 		<!-- ENDIF picture -->
 	</a>
 	<div class="usercard-body">
-		<a href="{config.relative_path}/user/{userslug}">
+		<a href="#">
 			<span class="usercard-name"><!-- IF fullname -->{fullname}<!-- ELSE -->{username}<!-- ENDIF fullname --></span><br />
 			<span class="usercard-username"><!-- IF !banned -->@{username}<!-- ELSE -->[[user:banned]]<!-- ENDIF !banned --></span>
 			<!-- IF !banned -->

@@ -1,7 +1,7 @@
 <!-- IF loggedIn -->
 <div class="clearfix quick-reply">
 	<div class="icon pull-left hidden-xs">
-		<a href="<!-- IF posts.user.userslug -->{config.relative_path}/user/{posts.user.userslug}<!-- ELSE -->#<!-- ENDIF posts.user.userslug -->">
+		<a href="#">
 			<!-- IF loggedInUser.picture -->
 			<img component="user/picture" data-uid="{loggedInUser.uid}" src="{loggedInUser.picture}" align="left" itemprop="image" />
 			<!-- ELSE -->

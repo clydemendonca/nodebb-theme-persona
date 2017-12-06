@@ -20,7 +20,7 @@
 		<!-- ENDIF !banned -->
 		<!-- ENDIF !isSelf -->
 		<li>
-			<a href="{config.relative_path}/user/{userslug}" class="inline-block" id="profile">[[user:profile]]</a>
+			<a href="#" class="inline-block" id="profile">[[user:profile]]</a>
 		</li>
 		<!-- IF showHidden -->
 		<li><a href="{config.relative_path}/user/{userslug}/settings">[[user:settings]]</a></li>

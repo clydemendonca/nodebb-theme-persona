@@ -8,7 +8,7 @@
 	<!-- BEGIN group.members -->
 	<tr data-uid="{group.members.uid}">
 		<td>
-			<a href="{config.relative_path}/user/{group.members.userslug}">
+			<a href="#">
 				<!-- IF group.members.picture -->
 				<img class="avatar avatar-sm avatar-rounded" src="{group.members.picture}" />
 				<!-- ELSE -->
@@ -17,7 +17,7 @@
 			</a>
 		</td>
 		<td class="member-name">
-			<a href="{config.relative_path}/user/{group.members.userslug}">{group.members.username}</a> <i title="[[groups:owner]]" class="fa fa-star text-warning <!-- IF !group.members.isOwner -->invisible<!-- ENDIF !group.members.isOwner -->"></i>
+			<a href="#">{group.members.username}</a> <i title="[[groups:owner]]" class="fa fa-star text-warning <!-- IF !group.members.isOwner -->invisible<!-- ENDIF !group.members.isOwner -->"></i>
 
 			<!-- IF group.isOwner -->
 			<div class="owner-controls btn-group pull-right">

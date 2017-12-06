@@ -170,7 +170,7 @@
 
 					<small>
 						<span class="pull-right post-preview-footer">
-							<a href="{config.relative_path}/user/{posts.user.userslug}">
+							<a href="#">
 								<!-- IF posts.user.picture -->
 								<img class="user-img" title="{posts.user.username}" src="{posts.user.picture}"/>
 								<!-- ELSE -->

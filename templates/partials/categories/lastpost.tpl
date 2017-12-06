@@ -3,7 +3,7 @@
 	<!-- IF @first -->
 	<div component="category/posts">
 		<p>
-			<a href="{config.relative_path}/user/{../user.userslug}">
+			<a href="#">
 				<!-- IF ../user.picture -->
 				<img class="user-img" title="{../user.username}" alt="{../user.username}" src="{../user.picture}">
 				<!-- ELSE -->
