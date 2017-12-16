@@ -6,7 +6,7 @@
 			<i class="fa fa-fw {../icon}"></i>
 		</div>
 
-		<h2 class="title">
+		<h2 class="title" style="color: #e14f3d;">
 			<!-- IMPORT partials/categories/link.tpl -->
 		</h2>
 		<div>

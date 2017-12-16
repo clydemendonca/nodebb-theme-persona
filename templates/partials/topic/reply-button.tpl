@@ -1,6 +1,6 @@
 <div component="topic/reply/container" class="btn-group action-bar <!-- IF !privileges.topics:reply -->hidden<!-- ENDIF !privileges.topics:reply -->">
-	<a href="{config.relative_path}/compose?tid={tid}&title={title}" class="btn btn-primary" component="topic/reply" data-ajaxify="false" role="button">[[topic:reply]]</a>
-	<button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+	<a href="{config.relative_path}/compose?tid={tid}&title={title}" class="btn btn-primary" component="topic/reply" data-ajaxify="false" role="button" style="background-color: #e14f3d; border: none;">[[topic:reply]]</a>
+	<button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" style="background-color: #e14f3d; border: none;">
 		<span class="caret"></span>
 	</button>
 	<ul class="dropdown-menu pull-right" role="menu">
@@ -11,7 +11,7 @@
 <!-- IF loggedIn -->
 <!-- IF !privileges.topics:reply -->
 <!-- IF locked -->
-<a component="topic/reply/locked" class="btn btn-primary" disabled><i class="fa fa-lock"></i> [[topic:locked]]</a>
+<a component="topic/reply/locked" class="btn btn-primary" disabled ><i class="fa fa-lock"></i> [[topic:locked]]</a>
 <!-- ENDIF locked -->
 <!-- ENDIF !privileges.topics:reply -->
 

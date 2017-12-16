@@ -37,14 +37,14 @@
 
 			</div>
 
-			<h2 component="topic/header" class="title">
+			<h2 component="topic/header" class="title" style="color: #e14f3d;">
 				<i component="topic/pinned" class="fa fa-thumb-tack <!-- IF !topics.pinned -->hide<!-- ENDIF !topics.pinned -->" title="[[topic:pinned]]"></i>
 				<i component="topic/locked" class="fa fa-lock <!-- IF !topics.locked -->hide<!-- ENDIF !topics.locked -->" title="[[topic:locked]]"></i>
 				<i component="topic/moved" class="fa fa-arrow-circle-right <!-- IF !topics.oldCid -->hide<!-- ENDIF !topics.oldCid -->" title="[[topic:moved]]"></i>
 				<!-- BEGIN icons -->@value<!-- END icons -->
 
 				<!-- IF !topics.noAnchor -->
-				<a href="{config.relative_path}/topic/{topics.slug}<!-- IF topics.bookmark -->/{topics.bookmark}<!-- ENDIF topics.bookmark -->" itemprop="url">{topics.title}</a><br />
+				<a href="{config.relative_path}/topic/{topics.slug}<!-- IF topics.bookmark -->/{topics.bookmark}<!-- ENDIF topics.bookmark -->" itemprop="url" style="color: white;">{topics.title}</a><br />
 				<!-- ELSE -->
 				<span>{topics.title}</span><br />
 				<!-- ENDIF !topics.noAnchor -->

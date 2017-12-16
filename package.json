@@ -1,22 +1,54 @@
 {
-  "name": "nodebb-theme-tonebase",
-  "version": "1.0.3",
-  "nbbpm": {
-    "compatibility": "^1.7.0"
-  },
-  "description": "Tonebase theme for NodeBB",
-  "main": "theme.less",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/clydemendonca/nodebb-theme-tonebase"
-  },
-  "keywords": [
-    "nodebb",
-    "theme",
-    "forum",
-    "bootstrap",
-    "responsive"
+  "_args": [
+    [
+      {
+        "raw": "nodebb-theme-tonebase@^1.0.4",
+        "scope": null,
+        "escapedName": "nodebb-theme-tonebase",
+        "name": "nodebb-theme-tonebase",
+        "rawSpec": "^1.0.4",
+        "spec": ">=1.0.4 <2.0.0",
+        "type": "range"
+      },
+      "/Users/mm302/Documents/GitLab/NodeBB"
+    ]
   ],
+  "_from": "nodebb-theme-tonebase@>=1.0.4 <2.0.0",
+  "_id": "nodebb-theme-tonebase@1.0.4",
+  "_inCache": true,
+  "_location": "/nodebb-theme-tonebase",
+  "_nodeVersion": "6.10.3",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/nodebb-theme-tonebase-1.0.4.tgz_1512551264735_0.3250248010735959"
+  },
+  "_npmUser": {
+    "name": "clyde01",
+    "email": "clyde.mendonca01@gmail.com"
+  },
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "nodebb-theme-tonebase@^1.0.4",
+    "scope": null,
+    "escapedName": "nodebb-theme-tonebase",
+    "name": "nodebb-theme-tonebase",
+    "rawSpec": "^1.0.4",
+    "spec": ">=1.0.4 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nodebb-theme-tonebase/-/nodebb-theme-tonebase-1.0.4.tgz",
+  "_shasum": "00f949280aa44ec06bdfcbb476a75c2fe226f1f1",
+  "_shrinkwrap": null,
+  "_spec": "nodebb-theme-tonebase@^1.0.4",
+  "_where": "/Users/mm302/Documents/GitLab/NodeBB",
+  "bugs": {
+    "url": "https://github.com/clydemendonca/nodebb-theme-tonebase/issues"
+  },
   "contributors": [
     {
       "name": "Clyde Mendonca",
@@ -24,12 +56,48 @@
       "url": "https://github.com/clydemendonca"
     }
   ],
-  "license": "BSD-2-Clause",
-  "bugs": {
-    "url": "https://github.com/clydemendonca/nodebb-theme-tonebase/issues"
-  },
   "dependencies": {
-    "striptags": "^3.1.0",
-    "pulling": "^1.1.0"
-  }
+    "pulling": "^1.1.0",
+    "striptags": "^3.1.0"
+  },
+  "description": "Tonebase theme for NodeBB",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "00f949280aa44ec06bdfcbb476a75c2fe226f1f1",
+    "tarball": "https://registry.npmjs.org/nodebb-theme-tonebase/-/nodebb-theme-tonebase-1.0.4.tgz"
+  },
+  "gitHead": "728eb9ec68b233af93248352e73a0db7cbf25259",
+  "homepage": "https://github.com/clydemendonca/nodebb-theme-tonebase#readme",
+  "keywords": [
+    "nodebb",
+    "theme",
+    "forum",
+    "bootstrap",
+    "responsive"
+  ],
+  "license": "BSD-2-Clause",
+  "main": "theme.less",
+  "maintainers": [
+    {
+      "name": "anayar",
+      "email": "abhishek.nayar@yale.edu"
+    },
+    {
+      "name": "clyde01",
+      "email": "clyde.mendonca01@gmail.com"
+    }
+  ],
+  "name": "nodebb-theme-tonebase",
+  "nbbpm": {
+    "compatibility": "^1.7.0"
+  },
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clydemendonca/nodebb-theme-tonebase.git"
+  },
+  "scripts": {},
+  "version": "1.0.4"
 }

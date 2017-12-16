@@ -1,4 +1,5 @@
 		</div><!-- END container -->
+		</div> <!-- pageBody-end -->
 	</main>
 
 	<div class="topic-search hidden">

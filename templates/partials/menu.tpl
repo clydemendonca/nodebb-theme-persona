@@ -1,9 +1,9 @@
 			<div class="navbar-header">
-				<button type="button" class="navbar-toggle pull-left" id="mobile-menu">
+				<button type="button" class="navbar-toggle pull-left" id="mobile-menu" style="margin-top: 0px;">
 					<span component="notifications/icon" class="notification-icon fa fa-fw fa-bell-o" data-content="0"></span>
 					<i class="fa fa-lg fa-bars"></i>
 				</button>
-				<button type="button" class="navbar-toggle hidden" id="mobile-chats">
+				<button type="button" class="navbar-toggle hidden" id="mobile-chats" style="margin-top: 0px;">
 					<span component="chat/icon" class="notification-icon fa fa-fw fa-comments" data-content="0"></span>
 					<i class="fa fa-lg fa-comment-o"></i>
 				</button>
@@ -82,7 +82,7 @@
 								</a>
 							</li>
 							<li role="presentation" class="divider"></li>
-							<li>
+							<!-- <li>
 								<a href="#" class="user-status" data-status="online">
 									<i class="fa fa-fw fa-circle status online"></i><span> [[global:online]]</span>
 								</a>
@@ -101,18 +101,18 @@
 								<a href="#" class="user-status" data-status="offline">
 									<i class="fa fa-fw fa-circle status offline"></i><span> [[global:invisible]]</span>
 								</a>
-							</li>
+							</li> -->
 							<li role="presentation" class="divider"></li>
 							<li>
 								<a component="header/profilelink/edit" href="https://tonebase.co/user/account">
 									<i class="fa fa-fw fa-edit"></i> <span>[[user:edit-profile]]</span>
 								</a>
 							</li>
-							<li>
+							<!-- <li>
 								<a component="header/profilelink/settings" href="{relative_path}/user/{user.userslug}/settings">
 									<i class="fa fa-fw fa-gear"></i> <span>[[user:settings]]</span>
 								</a>
-							</li>
+							</li> -->
 							<!-- IF showModMenu -->
 							<li role="presentation" class="divider"></li>
 							<li class="dropdown-header">[[pages:moderator-tools]]</li>
@@ -139,7 +139,7 @@
 								<form method="post" action="{relative_path}/logout">
 									<input type="hidden" name="_csrf" value="{config.csrf_token}">
 									<input type="hidden" name="noscript" value="true">
-									<button type="submit" class="btn btn-link">
+									<button type="submit" class="btn btn-link" style="color: white;">
 										<i class="fa fa-fw fa-sign-out"></i><span> [[global:logout]]</span>
 									</button>
 								</form>
@@ -220,23 +220,7 @@
 					</li>
 				</ul>
 
-				<ul id="main-nav" class="nav navbar-nav">
-					<!-- BEGIN navigation -->
-					<!-- IF function.displayMenuItem, @index -->
-					<li class="{navigation.class}">
-						<a class="navigation-link" href="{navigation.route}" title="{navigation.title}" <!-- IF navigation.id -->id="{navigation.id}"<!-- ENDIF navigation.id --><!-- IF navigation.properties.targetBlank --> target="_blank"<!-- ENDIF navigation.properties.targetBlank -->>
-							<!-- IF navigation.iconClass -->
-							<i class="fa fa-fw {navigation.iconClass}"></i>
-							<!-- ENDIF navigation.iconClass -->
-
-							<!-- IF navigation.text -->
-							<span class="{navigation.textClass}">{navigation.text}</span>
-							<!-- ENDIF navigation.text -->
-						</a>
-					</li>
-					<!-- ENDIF function.displayMenuItem -->
-					<!-- END navigation -->
-				</ul>
+			
 
 				<!-- ELSE -->
 				<ul class="nav navbar-nav navbar-right">
