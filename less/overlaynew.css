@@ -244,6 +244,7 @@
 @media (max-width: 768px) {
     #menu {
         padding-top: 9px;
+        cursor: pointer;
     }
 }
 
@@ -276,9 +277,129 @@
     color: #e14f3d !important
 }
 
-.overlay-link {    padding-top: 16px;
+.overlay-link {
+    padding-top: 16px;
 }
 
-.navbar-default{
-	border-color: transparent !important;
+.navbar-default {
+    border-color: transparent !important;
+}
+
+.topic .moderator-tools a[role=menuitem] {
+    color: #777 !important;
+}
+
+.modal-content {
+    color: #333 !important;
+}
+
+@media (max-width: 768px) {
+    .topic .pagination-block {
+        bottom: 54px !important;
+    }
+    .navbar-header {
+        display: none !important;
+    }
+    .hidden-768-up {
+        margin-top: 14px !important;
+    }
+}
+
+@media (max-width: 851px) and (min-width: 761px) {
+    .navbar-right {
+        margin-top: 2px !important;
+    }
+}
+
+.list-item .link {
+    padding: 10px 7px;
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid #333;
+    position: relative;
+    z-index: 1;
+}
+
+.list-item .link:hover {
+    color: #e14f3d !important;
+}
+
+.list-item .link:after {
+    content: url('https://tonebase.co/img/icons/arrow.svg');
+    position: absolute;
+    display: block;
+    right: 7px;
+    top: 5px;
+    font-size: 14px;
+    color: #fff;
+    width: 10px;
+    height: 10px;
+    z-index: 2;
+}
+
+.list-item.no-icon .link:after {
+    content: '';
+}
+
+@media (max-height: 479px) {
+    .list-item .link {
+        padding: 7px 7px;
+    }
+    .list-item .link:after {
+        top: 3px;
+    }
+}
+
+@media (min-height: 720px) {
+    .list-item .link {
+        padding: 9px 7px;
+    }
+    .list-item .link:after {
+        top: 10px;
+    }
+}
+
+@media (min-width: 850px) and (min-height: 720px) {
+    .list-item .link {
+        padding: 14px 7px;
+    }
+    .list-item .link:after {
+        top: 15px;
+    }
+}
+
+.list-item>a {
+    color: #fff !important;
+}
+
+ul.list {
+    list-style-type: none !important;
+}
+
+@media (min-width: 540px) {
+    .overlay-close.left {
+        top: 27px !important;
+    }
+}
+
+.section-title h1 {
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 1.2em;
+    color: #e14f3d;
+}
+
+@media (min-width: 540px) {
+    .section-title h1 {
+        font-size: 24px;
+    }
+}
+
+ul.list {
+    margin: 0;
+    padding: 0 !important;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
 }

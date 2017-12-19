@@ -139,7 +139,7 @@
 								<form method="post" action="{relative_path}/logout">
 									<input type="hidden" name="_csrf" value="{config.csrf_token}">
 									<input type="hidden" name="noscript" value="true">
-									<button type="submit" class="btn btn-link" style="color: white;">
+									<button type="submit" class="btn btn-link"  style="color: #333;">
 										<i class="fa fa-fw fa-sign-out"></i><span> [[global:logout]]</span>
 									</button>
 								</form>
