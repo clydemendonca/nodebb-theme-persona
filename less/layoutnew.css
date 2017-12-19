@@ -1,0 +1,36 @@
+.width-100 {
+    width: 100%;
+  } .height-100 {
+    height: 100%;
+  }
+  
+  .d-block {
+    display: block;
+  } .d-inline-block {
+    display: inline-block;
+  } .d-inline {
+    display: inline;
+  } .d-table {
+    display: table;
+  } .d-table-row {
+    display: table-row;
+  } .d-table-cell {
+    display: table-cell;
+  }
+  
+  .text-center {
+    text-align: center;
+  } .text-left {
+    text-align: left;
+  } .text-right {
+    text-align: right;
+  }
+  
+  .relative {
+    position: relative;
+  } .absolute {
+    position: absolute;
+  } .fixed {
+    position: fixed;
+  }
+  

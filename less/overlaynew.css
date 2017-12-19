@@ -263,3 +263,22 @@
         border-bottom: 1px solid transparent;
     }
 }
+
+.forum-title {
+    display: none !important
+}
+
+.menu .text {
+    color: #777 !important
+}
+
+.menu .text:hover {
+    color: #e14f3d !important
+}
+
+.overlay-link {    padding-top: 16px;
+}
+
+.navbar-default{
+	border-color: transparent !important;
+}
