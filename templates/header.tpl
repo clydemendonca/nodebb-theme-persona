@@ -4,6 +4,7 @@
 
 <head>
 	<title>{browserTitle}</title>
+	<link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
 	<!-- BEGIN metaTags -->{function.buildMetaTag}
 	<!-- END metaTags -->
 	<link rel="stylesheet" type="text/css" href="{relative_path}/assets/stylesheet.css?{config.cache-buster}" />
@@ -36,7 +37,7 @@
 	<!-- END -->
 </head>
 
-<body class="{bodyClass} skin-{config.bootswatchSkin}" style="background-color: #1c1c1f; font-family: inherit !important;">
+<body class="{bodyClass} skin-{config.bootswatchSkin}" style="background-color: #1c1c1f;">
 
 	<nav id="menu" class="slideout-menu hidden">
 
